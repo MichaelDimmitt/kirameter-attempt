@@ -15,3 +15,8 @@ Characteristics,
 
 example: 
 ![kirameterexample](https://user-images.githubusercontent.com/11463275/91585234-c8c88b00-e921-11ea-90b3-ac10eac35cce.png)
+
+## Things achieved so far, 
+1) set background image, but this will soon be replaced with css linear-gradient
+2) added multiple network graphs from highcharts with some css animations for motion.
+
