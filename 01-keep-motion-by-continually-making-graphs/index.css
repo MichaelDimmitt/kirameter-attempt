@@ -1,0 +1,55 @@
+#container1 {
+  width: calc(100vw - 30px);
+  
+  position: absolute;
+  height: 100vh;
+  left: 28vw;
+}
+#container2 {
+  width: calc(100vw - 30px);
+  margin: auto auto auto auto;
+  position: absolute;
+  height: 100vh;
+}
+#container4 {
+  width: calc(100vw - 30px);
+  margin: auto auto auto auto;
+  position: absolute;
+  height: 100vh;
+}
+#container3 {
+  width: calc(100vw - 30px);
+  position: absolute;
+  margin: auto auto auto auto;
+  height: 100vh;
+  right: 28vw;
+}
+#container4 {
+  width: calc(100vw - 30px);
+  margin: auto auto auto auto;
+  position: absolute;
+  height: 100vh;
+  left: 68px;
+}
+#container5 {
+  width: calc(100vw - 30px);
+  position: absolute;
+  margin: auto auto auto auto;
+  height: 100vh;
+  right: 88px;
+}
+.ww {
+  width: 100vw; 
+  height: 100vh;
+}
+body { 
+  margin: 0px;
+  background: url("https://images.hdqwalls.com/wallpapers/bthumb/abstract-blue-red-splash-thick-4k-dw.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
