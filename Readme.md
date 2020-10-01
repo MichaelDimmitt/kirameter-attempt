@@ -12,3 +12,6 @@ Characteristics,
 5) Slider has a glow to the coloring.
 6) Slider value is a picture of someones face and it is not a perfect circle, seems to be a transparent background image.
 7) white outlines, button with white outline.
+
+example: 
+![kirameterexample](https://user-images.githubusercontent.com/11463275/91585234-c8c88b00-e921-11ea-90b3-ac10eac35cce.png)
