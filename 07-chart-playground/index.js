@@ -102,7 +102,7 @@ const chart = (id, dataValues, ip) => {
   
     series: [{
       marker: {
-        radius: 2,
+        radius: 3,
       },
       dataLabels: {
         linkFormat: '',
@@ -135,10 +135,10 @@ const sourceCharts = (id, dataValues, ip) => {
     }, 8000);
 }
 
-const buildGraph = () => {
+const buildGraph = (links = 5, range = 8) => {
   let mainGraph1 = []
-  for(i = 0; i < 5; i++){
-    mainGraph1 = connectNodesByNumber({letter: alphabet[i], num: getRandomInt(8), arr: deepCopyAlphabet(), mainGraph: mainGraph1, isRandom: true})
+  for(i = 0; i < links; i++){
+    mainGraph1 = connectNodesByNumber({letter: alphabet[i], num: getRandomInt(range), arr: deepCopyAlphabet(), mainGraph: mainGraph1, isRandom: true})
   }
   return mainGraph1
 }
