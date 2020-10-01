@@ -1,0 +1,114 @@
+#container1 {
+  width: calc(100vw - 30px);
+  
+  position: absolute;
+  height: 100vh;
+  /* left: 28vw;  */
+  /*68px;*/
+  animation-name: spinleftright;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+#container2 {
+  width: calc(100vw - 30px);
+  margin: auto auto auto auto;
+  position: absolute;
+  height: 100vh;
+  animation-name: spinrightleft;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+#container4 {
+  width: calc(100vw - 30px);
+  margin: auto auto auto auto;
+  position: absolute;
+  height: 100vh;
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+/* @keyframes spin {
+  from {
+      transform:rotate(0deg) rotateY(-180deg);
+  }
+  to {
+      transform:rotate(360deg) rotateY(180deg);
+  }
+} */
+@keyframes reversespin {
+  from {
+    transform:rotate(360deg)
+  }
+  to {
+    transform:rotate(0deg)
+  }
+}
+@keyframes spin {
+  from {
+      transform:rotate(0deg)
+  }
+  to {
+      transform:rotate(360deg)
+  }
+}
+@keyframes spinleftright {
+  from {
+    transform: translateX(0);
+    left: 0;
+  }
+  to {
+    right: 100%;
+    transform: translateX(100%);
+  }
+}
+@keyframes spinrightleft {
+  from {
+    transform: translateX(0);
+    right: 0;
+  }
+  to {
+    left: 100%;
+    transform: translateX(-100%);
+  }
+}
+
+
+#container3 {
+  width: calc(100vw - 30px);
+  position: absolute;
+  margin: auto auto auto auto;
+  height: 100vh;
+  right: 28vw;
+}
+#container4 {
+  width: calc(100vw - 30px);
+  margin: auto auto auto auto;
+  position: absolute;
+  height: 100vh;
+  left: 68px;
+}
+#container5 {
+  width: calc(100vw - 30px);
+  position: absolute;
+  margin: auto auto auto auto;
+  height: 100vh;
+  right: 88px;
+}
+.ww {
+  width: 100vw; 
+  height: 100vh;
+}
+body { 
+  margin: 0px;
+  background: url("https://images.hdqwalls.com/wallpapers/bthumb/abstract-blue-red-splash-thick-4k-dw.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
