@@ -47,8 +47,11 @@
 }
 body { 
   margin: 0px;
-  background: linear-gradient(0.75turn, #105770, #92220f),
-            linear-gradient(to left, #105770, #92220f); /*linear-gradient(0.75turn, #105770, #92220f) !important;*/
+  background: 
+            linear-gradient(0.65turn, #105770, 26%, #291737 34%, 56%, #92220f);
+            /*linear-gradient(0.77turn, #105770 10%, 90%, #92220f);*/
+            /* linear-gradient(to left, #105770, #92220f), linear-gradient(0.75turn, #105770, #92220f) !important;*/
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

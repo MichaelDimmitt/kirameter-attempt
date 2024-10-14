@@ -94,7 +94,7 @@ const chart = (id, dataValues, ip) => {
           initialPositions: "circle",
           integration: "verlet",
           linkLength: 800, // 400
-          maxIterations: 2,
+          maxIterations: 1,
           type: "reingold-fruchterman",
         }
       }
