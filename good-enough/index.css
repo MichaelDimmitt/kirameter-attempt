@@ -113,3 +113,14 @@ body {
   height: 92px;
   cursor: pointer;
 }
+.text {
+ color: white;
+ font-family: math;
+ letter-spacing: 2px;
+}
+.adjust-top {
+  transform: translate(-50%, 0px);
+}
+.adjust-both {
+  transform: translate(-50%, -50%);
+}
