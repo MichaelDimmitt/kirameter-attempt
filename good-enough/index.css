@@ -1,3 +1,6 @@
+{{/* body {
+  zoom: 75%
+} */}}
 #container1 {
   width: calc(200vw - 30px);
   position: absolute;
@@ -73,7 +76,7 @@ body {
   top: 0px;
   transform: translate(-50%, -50%) scale(1.3);
   z-index: 2;
-  background: linear-gradient(0.75turn, #daf4c7, #e66a0e) !important;
+  background: linear-gradient(0.75turn, #daf4c7, 70%, #e66a0e) !important;
   position: relative;
   -webkit-appearance: none;
   width: 60%;
@@ -98,15 +101,15 @@ body {
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 92px;
-  background: #4CAF50;
+  width: 74px;
+  height: 116px;
+  background: no-repeat url("./face.png");
   cursor: pointer;
+  margin-top: -8px;
 }
 
 .slider::-moz-range-thumb {
   width: 25px;
   height: 92px;
-  background: #4CAF50;
   cursor: pointer;
 }
