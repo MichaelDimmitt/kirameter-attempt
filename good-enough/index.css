@@ -1,9 +1,7 @@
-{{/* body {
-  zoom: 75%
-} */}}
+
 #container1 {
   width: calc(200vw - 30px);
-  position: absolute;
+  position: fixed;
   top: -50%;
   left: -50%;
   height: 200vh;
@@ -12,7 +10,7 @@
 #container2 {
   width: calc(200vw - 30px);
   margin: auto auto auto auto;
-  position: absolute;
+  position: fixed;
   top: -50%;
   left: -50%;
   height: 200vh;
@@ -20,12 +18,12 @@
 #container4 {
   width: calc(200vw - 30px);
   margin: auto auto auto auto;
-  position: absolute;
+  position: fixed;
   height: 200vh;
 }
 #container3 {
   width: calc(200vw - 30px);
-  position: absolute;
+  position: fixed;
   margin: auto auto auto auto;
   height: 200vh;
   right: 28vw;
@@ -33,25 +31,25 @@
 #container4 {
   width: calc(200vw - 30px);
   margin: auto auto auto auto;
-  position: absolute;
+  position: fixed;
   height: 200vh;
   left: 68px;
 }
 #container5 {
   width: calc(200vw - 30px);
-  position: absolute;
+  position: fixed;
   margin: auto auto auto auto;
   height: 200vh;
   right: 88px;
 }
-.ww {
+{{/* .ww {
   width: 200vw; 
   height: 200vh;
-}
+} */}}
 body { 
   margin: 0px;
   background: 
-            linear-gradient(0.65turn, #105770, 26%, #291737 40%, 56%, #92220f);
+            linear-gradient(0.65turn, #105770, 26%, #291737 40%, 56%, #92220f) no-repeat;
             /*linear-gradient(0.77turn, #105770 10%, 90%, #92220f);*/
             /* linear-gradient(to left, #105770, #92220f), linear-gradient(0.75turn, #105770, #92220f) !important;*/
   
@@ -65,13 +63,13 @@ body {
 }
 
 
-.slidecontainer {
+{{/* .slidecontainer {
   width: 100%;
-}
+} */}}
 
 .slider {
-  margin-left: 50vw;
   margin-top: 50vh;
+  left: 50vw;
   position: absolute !important;
   top: 0px;
   transform: translate(-50%, -50%) scale(1.3);
