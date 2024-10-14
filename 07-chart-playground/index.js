@@ -93,8 +93,8 @@ const chart = (id, dataValues, ip) => {
           initialPositionRadius: ip,
           initialPositions: "circle",
           integration: "verlet",
-          linkLength: 300,
-          maxIterations: 1000,
+          linkLength: 800, // 400
+          maxIterations: 2,
           type: "reingold-fruchterman",
         }
       }
@@ -124,18 +124,18 @@ const sourceCharts = (id, dataValues, ip) => {
     chart(id, dataValues, ip);
     document.getElementsByClassName('highcharts-credits')[0].remove()
     
-    setTimeout(() => {
+    // setTimeout(() => {
       
-      chart('container2', dataValues, ip);
-      document.getElementsByClassName('highcharts-credits')[0].remove()
+    //   chart('container2', dataValues, ip);
+    //   document.getElementsByClassName('highcharts-credits')[0].remove()
     
-    }, 4000);
-    setTimeout(() => {
-      sourceCharts('container1', buildGraph(), 1)
-    }, 8000);
+    // }, 4000);
+    // setTimeout(() => {
+    //   sourceCharts('container1', buildGraph(), 1)
+    // }, 8000);
 }
 
-const buildGraph = (links = 5, range = 8) => {
+const buildGraph = (links = 100, range = 1) => {
   let mainGraph1 = []
   for(i = 0; i < links; i++){
     mainGraph1 = connectNodesByNumber({letter: alphabet[i], num: getRandomInt(range), arr: deepCopyAlphabet(), mainGraph: mainGraph1, isRandom: true})

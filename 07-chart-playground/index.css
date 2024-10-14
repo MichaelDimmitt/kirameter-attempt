@@ -47,7 +47,8 @@
 }
 body { 
   margin: 0px;
-  background: url("https://images.hdqwalls.com/wallpapers/bthumb/abstract-blue-red-splash-thick-4k-dw.jpg") no-repeat center center fixed; 
+  background: linear-gradient(0.75turn, #105770, #92220f),
+            linear-gradient(to left, #105770, #92220f); /*linear-gradient(0.75turn, #105770, #92220f) !important;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
